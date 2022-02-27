@@ -47,4 +47,7 @@ match serio:
     case "N-02":
         print('nokia')
 
+def suma(*args,**kwargs):
+    return sum(args)
 
+print(suma(1))
